@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/reset.css>">
+    <link rel="stylesheet" href="css/style.css">   
+    <link rel="shortcut icon" href="img/Image-head.png">
+    <title>Portafolio Yahir Hernandez</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                Yahir
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid" id="nav-list">
+
+                    <li class="nav-item">
+                        <a href="#aboutM" class="nav-link active-link">
+                           <img src="img/icon-dude.png" alt="Icon AM"> About Me
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <img src="img/icon-qualification.png" alt="Icon Skills"> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#hobbies" class="nav-link">
+                            <img src="img/icon-hobbies.png" alt="Icon Hobbies"> Hobbies
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#qualification" class="nav-link">
+                            <img src="img/icon-skills.png" alt="Icon education"> Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link">
+                            <img src="img/Icon-education.png" alt="Icon education"> Projects
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <img src="img/icon-contact.png" alt="Icon education"> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav-close" id="nav-close">
+                    <img src="img/icon-close.png" alt="Icon close">
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <!--<img src="img/Icon-moon.png" alt="Icon moon">-->
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <img src="img/Icon-menu.png" alt="Icon Menu">
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <!----------------------->
+
+    <!--Main-->
+    <main class="main" id="main">
+
+        <!--About Me-->
+        <section class="aboutM section" id="aboutM">
+            <div class="aboutM-container container grid section-border">
+                <div class="aboutM-data grid">
+                    <h1 class="aboutM-title">
+                        Hola, Soy Yahir, <br> <!--Sirve para separar el texto en renglon-->
+                        estudiante de Ingenieria Biomedica<br>
+                        de la Ciudad de México. <br>
+                    </h1>
+                    
+                    <!--Photo Personal-->
+                    <div class="aboutM-photo grid">
+                        <div class="aboutM-perfil">
+                            <img src="img/Foto-Personal.jpg" alt="Foto personal">
+                        </div>
+                        <!--
+                        <img>
+                        <img> -->
+                    </div>
+                    <!----------------------->
+
+                    <!--Social media-->
+                    <ul class="aboutM-social">
+                        <!-- Se siguio a partir de https://www.instagram.com/reel/C9MP73StuzV/?igsh=MW1jOGEyM3pxam1s-->
+                        <li class="item-content">
+                            <a href="https://www.linkedin.com/in/ende-yahir-hernandez-ramirez/" target="_blank" class="aboutM-social-link" data-social="linkedin">
+                                <div class="filled"></div> 
+                                <svg  width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" xml:space="preserve"> <!--Este es el elemento contenedor para gráficos vectoriales escalables.-->
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                                        fill="currentColor"></path> <!--Define una forma vectorial. El atributo d contiene una lista de comandos y coordenadas para dibujar el icono de Instagram. Los valores dentro de d son coordenadas y comandos SVG que definen la forma del logotipo.-->
+                                </svg>
+                            </a>
+                            <div class="tooltip">LinkedIn</div>
+                        </li>
+
+                        <li class="item-content">
+                            <a href="https://github.com/finn047292" target="_blank" class="aboutM-social-link" data-social="github">
+                                <div class="filled"></div>
+                                <svg width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" xml:space="preserve">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </a>
+                            <div class="tooltip">Github</div>
+                        </li>
+
+                        <li class="item-content">
+                            <a href="https://www.instagram.com/yahirraz10?igsh=MXFveGhnaW1jMjRwaQ==" target="_blank" class="aboutM-social-link" data-social="instagram"> <!--target es un atributo que especifica dónde abrir el documento vinculado. _blank significa que el documento vinculado se abrirá en una nueva pestaña o ventana del navegador.-->
+                                <div class="filled"></div>
+                                <svg width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" xml:space="preserve">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </a>
+                            <div class="tooltip">Instagram</div>
+                        </li>
+                    </ul>
+                </div>
+                <!----------------------->
+
+                <!--About Me Info-->
+                <div class="aboutM-info">
+                    <div class="">
+                        <h2 class="aboutM-info-title">
+                            Biografía
+                        </h2>
+
+                        <p class="aboutM-info-description">
+                            Estudiante de excelencia en Ingeniería Biomédica, busco oportunidad para adquirir experiencia nacional e internacional con investigaciones.
+                        </p>
+                    </div>
+
+                    <div class="">
+                        <h2 class="aboutM-info-title">
+                            Contacto
+                        </h2>
+
+                        <p class="aboutM-info-description">
+                            CDMX, México. <br>
+                            endryahir@gmail.com <br>
+                            +52 5621253662 <br>
+                        </p>
+                    </div>
+
+                        
+                    <div class="">
+                        <h2 class="aboutM-info-title">
+                            Servicios
+                        </h2>
+
+                        <p class="aboutM-info-description">
+                            Ingenierio Biomedico<br>
+                        </p>
+                    </div>
+
+                        
+                    <div class="">
+                        <h2 class="aboutM-info-title">
+                            Contacto
+                        </h2>
+
+                        <p class="aboutM-info-description">
+                            CDMX, México. <br>
+                            endryahir@gmail.com <br>
+                            +52 5621253662 <br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="aboutM-info">
+                    <div>
+                        <h2 class="aboutM-info-title">
+                            Años de experiencia:
+                        </h2>
+                        <p class="aboutM-info-number">
+                            1+
+                        </p>
+                    </div>
+                        
+                    <div>
+                        <h2 class="aboutM-info-title">
+                            Projectos complatados
+                        </h2>
+                        <p class="aboutM-info-number">
+                            2+
+                        </p>
+                    </div>
+                        
+                    <div>
+                        <h2 class="aboutM-info-title">
+                            Compañias con las que he trabajado
+                        </h2>
+                        <p class="aboutM-info-number">
+                            2
+                        </p>
+                    </div>
+                </div>
+                <!--------------------------->
+            </div>  
+        </section>
+        <!------------------------------------------>
+
+        <!--Skills-->
+        <section class="skills section" id="skills">
+            <div class="skills-head">
+                <h2 class="section-title"> Skills</h2>
+                <span class="section-subtitle">Conocimientos y habilidades</span>
+            </div>
+            <div class="skills-container container grid section-border">    
+                <div class="scroller">
+                    <div class="skill-container-items">
+                        <img src="img/office.png" alt="Microsoft Office" class="skills-img">
+                        <p class="skills-type">Microsoft Office</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/html.png" alt="HTML5" class="skills-img">
+                        <p class="skills-type">HTLM5</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/css.png" alt="CSS3" class="skills-img">
+                        <p class="skills-type">CSS3</p>
+                    </div>
+                    
+                    <div class="skill-container-items">
+                        <img src="img/js.png" alt="JAVASCRIPT" class="skills-img">
+                        <p class="skills-type">JAVASCRIPT</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/java.png" alt="JAVA" class="skills-img">
+                        <p class="skills-type">JAVA</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/c++.png" alt="C++" class="skills-img">
+                        <p class="skills-type">C++</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/Matlab.png" alt="MATLAB" class="skills-img">
+                        <p class="skills-type">MATLAB</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/solidworks.png" alt="SOLIDWORKS" class="skills-img">
+                        <p class="skills-type">SOLIDWORKS</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/COMSOL.jpeg" alt="COMSOL MULTIPHYSICS" class="skills-img">
+                        <p class="skills-type">COMSOL MULTIPHYSICS</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/Eagle.jpg" alt="AUTODESK EAGLE" class="skills-img">
+                        <p class="skills-type">AUTODESK EAGLE</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/fusin.png" alt="AUTODESK FUSION" class="skills-img">
+                        <p class="skills-type">AUTODESK FUSION</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/proteus.png" alt="PROTEUS" class="skills-img">
+                        <p class="skills-type" id="proteus">PROETUS</p>
+                    </div>
+
+                </div>
+
+                <div class="scroller">
+                    <div class="skill-container-items">
+                        <img src="img/office.png" alt="Microsoft Office" class="skills-img">
+                        <p class="skills-type">MICROSOFT OFFICE</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/html.png" alt="HTML5" class="skills-img">
+                        <p class="skills-type">HTLM5</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/css.png" alt="CSS3" class="skills-img">
+                        <p class="skills-type">CSS3</p>
+                    </div>
+                    
+                    <div class="skill-container-items">
+                        <img src="img/js.png" alt="JAVASCRIPT" class="skills-img">
+                        <p class="skills-type">JAVASCRIPT</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/java.png" alt="JAVA" class="skills-img">
+                        <p class="skills-type">JAVA</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/c++.png" alt="C++" class="skills-img">
+                        <p class="skills-type">C++</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/Matlab.png" alt="MATLAB" class="skills-img">
+                        <p class="skills-type">MATLAB</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/solidworks.png" alt="SOLIDWORKS" class="skills-img">
+                        <p class="skills-type">SOLIDWORKS</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/COMSOL.jpeg" alt="COMSOL MULTIPHYSICS" class="skills-img">
+                        <p class="skills-type">COMSOL MULTIPHYSICS</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/Eagle.jpg" alt="AUTODESK EAGLE" class="skills-img">
+                        <p class="skills-type">AUTODESK EAGLE</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/fusin.png" alt="AUTODESK FUSION" class="skills-img">
+                        <p class="skills-type">AUTODESK FUSION</p>
+                    </div>
+
+                    <div class="skill-container-items">
+                        <img src="img/proteus.png" alt="PROTEUS" class="skills-img">
+                        <p class="skills-type">PROETUS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--.-------------------------------------------------------------->
+
+        <!--Hobbies-->
+        <section class="hobbies section" id="hobbies">
+            <div class="hobbies-head">
+                <h2 class="section-title"> Hobbies</h2>
+                <span class="section-subtitle">Mis actividades extracurriculares</span>
+            </div>
+            <div class="hobbies-container container grid section-border">    
+                <div class="scroller">
+                    <div class="hobbies-container-items">
+                        <img src="img/Guitarra.png" alt="Microsoft Office" class="hobbies-img">
+                        <p class="hobbies-type">Tocar guitarra</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/soccer-player_919471.png" alt="HTML5" class="hobbies-img">
+                        <p class="hobbies-type">Futbol</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/gimnacio.png" alt="CSS3" class="hobbies-img">
+                        <p class="hobbies-type">Gimnasio</p>
+                    </div>
+                    
+                    <div class="hobbies-container-items">
+                        <img src="img/Perro.png" alt="JAVASCRIPT" class="hobbies-img">
+                        <p class="hobbies-type">Pasear al parque con mi perro</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/audifonos.png" alt="JAVA" class="hobbies-img">
+                        <p class="hobbies-type">Oir musica</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/familia.png" alt="C++" class="hobbies-img">
+                        <p class="hobbies-type">Estar con mi familia y amistades</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/Estudio.png" alt="C++" class="hobbies-img">
+                        <p class="hobbies-type">Estudiar</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/leer.png" alt="C++" class="hobbies-img">
+                        <p class="hobbies-type">Leer</p>
+                    </div>
+
+                </div>
+
+                <div class="scroller">
+                    <div class="hobbies-container-items">
+                        <img src="img/Guitarra.png" alt="Microsoft Office" class="hobbies-img">
+                        <p class="hobbies-type">Tocar guitarra</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/soccer-player_919471.png" alt="HTML5" class="hobbies-img">
+                        <p class="hobbies-type">Futbol</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/gimnacio.png" alt="CSS3" class="hobbies-img">
+                        <p class="hobbies-type">Gimnasio</p>
+                    </div>
+                    
+                    <div class="hobbies-container-items">
+                        <img src="img/Perro.png" alt="JAVASCRIPT" class="hobbies-img">
+                        <p class="hobbies-type">Pasear al parque con mi perro</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/audifonos.png" alt="JAVA" class="hobbies-img">
+                        <p class="hobbies-type">Oir musica</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/familia.png" alt="C++" class="hobbies-img">
+                        <p class="hobbies-type">Estar con familia y amistades</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/Estudio.png" alt="C++" class="hobbies-img">
+                        <p class="hobbies-type">Estudiar</p>
+                    </div>
+
+                    <div class="hobbies-container-items">
+                        <img src="img/leer.png" alt="C++" class="hobbies-img">
+                        <p class="hobbies-type">Leer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------------------->
+
+        <!--Qualification-->
+        <section class="qualification section" id="qualification">
+            <div class="qualification-head">
+                <h2 class="section-title">Cualificación</h2>
+                <span class="section-subtitle">Formación academica y experiencia profesional</span>
+            </div>
+            <div class="qualification-container container grid section-border">
+                <h2 class="section-title"> Formación academica</h2>
+                <ul class="qualification-item">
+                    <li class="schools">
+                        <img src="img/ULSA.jpg" alt="ULSA" class="img-qualification">
+                        <p>Bachillerato <br>
+                            2019-2022 <br>
+                            Promedio 8.9
+                        </p>
+                    </li>
+
+                    <li class="schools">
+                        <img src="img/UVM.jpg" alt="UVM" class="img-qualification">
+                        <p>Licenciatura en Ingenieria Biomedica <br>
+                            2022-Actualmente <br>
+                            Proemdio 9.3 <br>
+                        </p>
+                    </li>
+
+                    <li class="schools">
+                        <img src="img/oracle.jpg" alt="ALura + Oracle" class="img-qualification">
+                        <p>Especialización Front-End <br>
+                            2024 <br>
+                            Formacion en Front-End <br>
+                        </p>
+                    </li>
+
+                    <li class="schools">
+                        <img src="img/Google.jpg" alt="Google Cloud" class="img-qualification">
+                        <p>Google Cloud Computing <br>
+                            2023-2024 <br>
+                            Formacion en la nube de Google
+                        </p>
+                    </li>
+
+                    <li class="schools">
+                        <img src="img/BEDU.png" alt="BEDU" class="img-qualification">
+                        <p>(IA) Inteligencia Aritificial<br>
+                            Actualmente <br>
+                            IA y ML<br>
+                        </p>
+                    </li>
+
+                    <li class="schools">
+                        <img src="img/PH4.png" alt="PH4Bionics" class="img-qualification" id="p4bionics">
+                        <p>Diseño de protesis <br>
+                            2023-Actualmente <br>
+                            Creacion y diseño de protesis<br>
+                        </p>
+                    </li>
+                </ul>
+
+                <h2 class="section-title">Experiencia Profesional</h2>
+                <div class="qualification-item">
+                    <div class="works">
+                        <img src="img/computadora.png" alt="Cmputadora">
+                        <p>Lion Group MX <br>
+                            2022-2023 <br>
+                            Ingeniero Auxiliar <br>
+                        </p>
+                    </div>
+
+                    <div class="works">
+                        <img src="img/excel.png" alt="">
+                        <p>JRK Asesores y Consulores<br>
+                            2023 - 2024 <br>
+                            Becario de Contabilidad <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!------------------------------------------------->
+        <!--Projects-->
+         <section class="projects section" id="project">
+            <h2 class="section-title">Projects</h2>
+            <span class="section-subtitle">Proyectos realizados</span>
+
+            <div class=" container section-border">
+                <div class="projects-container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="projects-content swiper-slide">
+                            <img src="img/Proyects.png" alt="Project 1" class="project-img">
+                            <div>
+                                <span class="projects-subtitle">WEB</span>
+                                <h1 class="projects-title">Modern Website</h1>
+                                <a href="" class="projects-button">
+                                    View demo <img src="img/flecha-grande.png" alt="Flecha derecha" class="ri-arrow-right-line">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects-content swiper-slide">
+                            <img src="img/Proyects.png" alt="Project 2" class="project-img">
+                            <div>
+                                <span class="projects-subtitle">WEB</span>
+                                <h1 class="projects-title">Ecommerce</h1>
+                                <a href="" class="projects-button">
+                                    View demo <img src="img/flecha-grande.png" alt="Flecha derecha" class="ri-arrow-right-line">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects-content swiper-slide">
+                            <img src="img/Proyects.png" alt="Project 2" class="project-img">
+                            <div>
+                                <span class="projects-subtitle">Animation</span>
+                                <h1 class="projects-title">WEB</h1>
+                                <a href="" class="projects-button">
+                                    View demo <img src="img/flecha-grande.png" alt="Flecha derecha" class="ri-arrow-right-line">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="img/flechaD.png" alt="Flecha Derecha" class="arrow">
+                    </div>
+                    <div class="swiper-button-prev">
+                        <img src="img/flechaI.png" alt="Flecha Izquierda" class="arrow">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+         </section>
+         <!----------------------------------------->
+         <!--Contact-->
+        <section class=" contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <span class="section-subtitle">Get in touch</span>
+
+            <div class="contact-container container grid section-border">
+                <div class="contact-content">
+                    <h3 class="contact-title">
+                        <img src="img/mensaje.png" alt="Mensaje">Talk to me
+                    </h3>
+
+                    <div class="contact-info">
+                        <div class="contact-data">
+                            <span class="contact-data-title">Email</span>
+                            <span class="contact-data-info">endryahir@gmail.com</span>
+                        </div>
+                        
+                        <div class="contact-data">
+                            <span class="contact-data-title">Whatsapp</span>
+                            <span class="contact-data-info">+52-2125-3662</span>
+                            <a href="" class="contact-button"> <!--Insertar aqui el link para que vayan directo al whats-->
+                                Write Me <img src="img/flecha-grande.png" target="_blank" alt="Flecha grande">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-content">
+                    <h3 class="contact-title">
+                        <img src="img/send.png" alt="Enviar"> Write me your project
+                    </h3>
+
+                    <form action="" class="contact-form" id="contact-form">
+                        <div class="contact-form-div">
+                            <labe class="contact-form-tag">Names</labe>
+                            <input type="text" name="user_name" required placeholder="Write your name" class="contact-form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact-form-div">
+                            <labe class="contact-form-tag">Mail</labe>
+                            <input type="text" name="user_mail" required placeholder="Write your mail" class="contact-form-input" id="contact-mail">
+                        </div>
+
+                        <div class="contact-form-div contact-form-area">
+                            <labe class="contact-form-tag">Project</labe>
+                            <textarea name="user_project" placeholder="Write your project" id="contact-project" class="contact-form-input"></textarea>
+                        </div>
+
+                        <p class="contact-message" id="contact-message"></p>
+
+                        <button type="sumbit" class="contact-button">
+                            Sumbit <img src="img/flecha-grande.png" alt="Flecha grande">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>       
+    </main>
+    <!----------------------->
+    
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-container container">
+            <h1 class="footer-title">Yahir</h1>
+            <p>Estudiante  Ingeniería  Biomédica</p>
+
+            <ul class="footer-list">
+                <li>
+                    <a href="#aboutM" class="footer-link">About Me</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer-link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#project" class="footer-link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="aboutM-social" id="footer-social">
+                <!-- Se siguio a partir de https://www.instagram.com/reel/C9MP73StuzV/?igsh=MW1jOGEyM3pxam1s-->
+                <li class="item-content">
+                    <a href="https://www.linkedin.com/in/ende-yahir-hernandez-ramirez/" target="_blank" class="aboutM-social-link" data-social="linkedin">
+                        <div class="filled"></div> 
+                        <svg  width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" xml:space="preserve"> <!--Este es el elemento contenedor para gráficos vectoriales escalables.-->
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                                fill="currentColor"></path> <!--Define una forma vectorial. El atributo d contiene una lista de comandos y coordenadas para dibujar el icono de Instagram. Los valores dentro de d son coordenadas y comandos SVG que definen la forma del logotipo.-->
+                        </svg>
+                    </a>
+                    <div class="tooltip">LinkedIn</div>
+                </li>
+
+                <li class="item-content">
+                    <a href="https://github.com/finn047292" target="_blank" class="aboutM-social-link" data-social="github">
+                        <div class="filled"></div>
+                        <svg width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" xml:space="preserve">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                                fill="currentColor">
+                            </path>
+                        </svg>
+                    </a>
+                    <div class="tooltip">Github</div>
+                </li>
+
+                <li class="item-content">
+                    <a href="https://www.instagram.com/yahirraz10?igsh=MXFveGhnaW1jMjRwaQ==" target="_blank" class="aboutM-social-link" data-social="instagram"> <!--target es un atributo que especifica dónde abrir el documento vinculado. _blank significa que el documento vinculado se abrirá en una nueva pestaña o ventana del navegador.-->
+                        <div class="filled"></div>
+                        <svg width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" xml:space="preserve">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                                fill="currentColor">
+                            </path>
+                        </svg>
+                    </a>
+                    <div class="tooltip">Instagram</div>
+                </li>
+            </ul>
+            <span class="footer-copy">Derechos reservados por <br> Ende Yahir Hernandez Ramirez</span>
+        </div>
+    </footer>
+    <!----------------------->
+
+    <!--Scroll Up--->
+    <a href="" class="scroll-up" id="scroll-up">
+        <img src="img/flechaA.png" alt="Flecha Arriba" >
+    </a>
+    <!----------------------->
+
+    <script src=""></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
